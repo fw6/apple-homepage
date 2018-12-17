@@ -1,0 +1,106 @@
+@charset "htf-8";
+
+footer {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100%;
+  color: #434343;
+}
+
+.footer-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.footer-wrapper .navigation {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.footer-wrapper .navigation dl {
+  flex: 0 0 20%;
+  transform: scale(.95);
+  cursor: default;
+}
+
+.footer-wrapper .navigation dl dt {
+  font-size: 11px;
+  line-height: 1.36364;
+  font-weight: 600;
+  margin-bottom: .9em;
+}
+
+.footer-wrapper .navigation dl dt:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.footer-wrapper .navigation dl dd:last-of-type {
+  padding-bottom: 25px
+}
+
+.footer-wrapper .navigation dl dd {
+  margin-bottom: 14px;
+  font-size: 10px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.footer-wrapper .navigation dl dd:hover {
+  text-decoration: underline;
+}
+
+.footer-wrapper .access {
+  font-size: 11px;
+  color: #888888;
+}
+
+.footer-wrapper .access>* {
+  transform: scale(.95);
+  transform-origin: top left;
+}
+
+.footer-wrapper .access a {
+  color: #0070c9
+}
+
+.footer-wrapper .access .shop {
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d6d6d6
+}
+
+.footer-wrapper .access .legal {
+  position: relative;
+  top: -3px;
+}
+
+.footer-wrapper .access .legal .copyright {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.footer-wrapper .access .legal .links {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -5px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.footer-wrapper .access .legal .links .legal-link {
+  border-right: 1px solid #d6d6dd;
+  margin-top: 5px;
+  margin-right: 7px;
+  padding-right: 10px;
+  display: inline-block;
+  color: #555555;
+}

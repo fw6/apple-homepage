@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+main {
+  overflow: hidden;
+  max-width: 2560px;
+  margin: 44px auto 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  border-bottom: 15px solid #ffffff;
+}
+
+.section-1 {
+  box-sizing: border-box;
+  padding-top: 44px;
+  height: 742px;
+  background-color: #fafafa;
+}
+
+.section-1 .content {
+  position: relative;
+  padding-top: 55px;
+  text-align: center;
+  z-index: 777;
+}
+
+.section-1 .content h2 {
+  padding-left: 0.4em;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.07143;
+  letter-spacing: 0.082em;
+}
+
+.section-1 .content p {
+  margin-top: 9px;
+  line-height: 1.38105;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+}
+
+.section-1 .content p a {
+  color: #0070c9;
+}
+
+#banner-wrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 650px;
+  z-index: 1;
+}
+
+#banner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 200%;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+#banner .pics {
+  overflow: hidden;
+}
+
+#banner .pics i {
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/dy/images/heroes/holiday/subhead/holiday_hero_subhead_1b_large.jpg);
+}
+
+#banner .pic-num,
+#banner .btns {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+#banner .pic-num {
+  bottom: 20px;
+}
+
+#banner .pic-num li {
+  display: inline-block;
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fafafa;
+}
+
+#banner .pic-num li.on {
+  background-color: #69a4ac93;
+}
+
+
+.section-2,
+.section-2>div {
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  border-bottom-width: 0;
+}
+
+.section-2>div {
+  height: 650px;
+}
+
+.section-2>div:first-child {
+  background-color: #69a4ac93
+}
+
+.section-2 .desc {
+  position: relative;
+  width: 100%;
+  padding-top: 65px;
+  padding-left: .4em;
+  text-align: center;
+  z-index: 55;
+}
+
+.section-2 .desc h2 {
+  position: relative;
+  height: 30px;
+  background: url(https://www.apple.com/v/home/dz/images/logos/iphone_xr_logo_hero_9d70d_medium.png) no-repeat center/180px 30px;
+  font-size: 44px;
+  line-height: 1.09091;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.section-2 .part:last-child .desc h2 {
+  background-image: url(https://www.apple.com/v/home/dz/images/logos/iphone_xs_logo_hero_a5d05_medium.png)
+}
+
+.visuallyhidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0
+}
+
+.section-2 .desc h3 {
+  margin-top: 5px;
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+}
+
+.section-2 .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.section-2 .bg figure {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1020px;
+  height: 383px;
+  background: url(https://www.apple.com/v/home/dz/images/heroes/iphone-xr/iphone_xr_5e40f_mediumtall.jpg) no-repeat center/auto 383px;
+}
+
+.section-2 .part:last-child {
+  margin-top: 12px;
+}
+
+.section-2 .part:last-child .bg figure {
+  background-image: url(https://www.apple.com/v/home/dz/images/heroes/iphone-xs/iphone_xs_0afef_largetall.jpg);
+}
+
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 12px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.section-3 .block {
+  flex: 0 0 50%;
+  height: 598px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  background: #fafafa url(https://www.apple.com/v/home/dz/images/promos/ipad-pro/ipad_pro__7b6504bb31_large.jpg) no-repeat center bottom/auto;
+  background-clip: content-box;
+  text-align: center;
+}
+
+.section-3 .block:nth-child(2) {
+  background-image: url(https://www.apple.com/v/home/dz/images/promos/holiday-tv-spot/share_your_gifts_large.jpg)
+}
+
+.section-3 .block:nth-child(3) {
+  background-image: url(https://www.apple.com/cn/home/images/promos/apple-watch-series-4/all_new_large.jpg)
+}
+
+.section-3 .block:nth-child(4) {
+  background-image: url(https://www.apple.com/v/home/dz/images/promos/mac-mini/mac_mini__c1035c715c_large.jpg)
+}
+
+.section-3 .block:nth-child(5) {
+  background-image: url(https://www.apple.com/v/home/dz/images/promos/macbook-air/macbook_air__2f52481d_large.jpg);
+}
+
+.section-3 .block:nth-child(6) {
+  background-image: url(https://www.apple.com/cn/home/images/promos/give-back/give_back__m7ahn1mgwqau_large.jpg);
+}
+
+.section-3 .block:nth-child(odd) {
+  padding-right: 6px;
+}
+
+.section-3 .block:nth-child(even) {
+  padding-left: 6px;
+}
+
+.section-3 .block:nth-child(4) {
+  background-color: #000000;
+}
+
+.section-3 .block:nth-child(even):not(:last-child) {
+  color: #ffffff
+}
+
+.section-3 .title {
+  width: 90%;
+  max-width: 330px;
+  margin: 47px auto 0;
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+}
+
+.section-3 .logo-image {
+  height: 44px;
+  background: url(https://www.apple.com/v/home/dz/images/logos/logo_series_4_medium.jpg) no-repeat center/116px 44px;
+}
+
+.section-3 .giveback {
+  margin-top: 42px;
+}
+
+.section-3 .sub-title {
+  margin: 3px auto 0;
+  padding-left: .4em;
+  width: 90%;
+  max-width: 330px;
+  font-size: 19px;
+  line-height: 1.21053;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+.section-3 .film {
+  margin-top: .8em;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.section-3 .film span {
+  padding-left: .3em;
+}
+
+.section-3 p a:hover {
+  text-decoration-line: underline
+}
+
+.section-3 p:hover {
+  text-decoration-line: underline
+}
+
+.video-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #fafafa;
+  transform: scale(0);
+  transform-origin: center;
+  z-index: 99999;
+}
+
+.video-wrapper .close-video {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 42px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.video-wrapper .video-media-controller {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100vw;
+  max-width: 1280px;
+  max-height: 720px;
+  transform: translateX(-50%) translateY(-50%);
+}
